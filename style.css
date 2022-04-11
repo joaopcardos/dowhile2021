@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    max-width: 80%;
+   
+    margin: 0 auto;
+    
+   
+   
+}
+
+.logo{
+    margin-top: 32px;
+    margin-bottom: 100px;
+  
+    padding: 10px;
+}
+
+.depositions{
+   
+    width: 100%;
+    
+}
+.message{
+    width: 440px;
+    margin-bottom: 30px;
+   
+}
+.message2{
+    margin-left: 90px;
+}
+.perfil{
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+p{
+    color: #E1E1E6;
+    font-size: 20px;
+    
+}
+.container2{
+    display: flex;
+    gap: 50px;
+}
+
+
+.login{
+   
+    background-repeat: no-repeat;
+    width: 452px;
+    height: 733px;
+    margin-top: -16rem;
+    background: #17171A;
+    
+    
+   
+}
+.content{
+    text-align: center;
+}
+
+
+
+.content h2{
+     color: #E1E1E6;
+     margin-top: 10px;
+     margin-bottom: 45px;
+     
+ }
+
+
+
+a{  
+     text-decoration: none; 
+     color: #17171A;
+     font-weight: bold;
+     background-image: linear-gradient(to left,#FFCD1E, #FF008E );
+     max-width: 70%;
+  
+     margin: 0 auto;
+     padding: 15px ;
+     gap: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Roboto', sans-serif;    
+}
+
+
+
+ 
+@media  (max-width: 890px) {
+    .container2{
+        display: block;
+        
+    }
+    .depositions{
+        margin-bottom: 98%;
+        margin-left: -13px;
+        
+    }
+    .message2{
+       margin-left: -8px;
+       
+    }
+
+    .login{
+        margin-left: -30px;
+    }
+ 
+
+}
